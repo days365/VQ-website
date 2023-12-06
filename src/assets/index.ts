@@ -1,5 +1,5 @@
 function updateScrollbarVisibility() {
-  const element = document.getElementById('scroll_bar_contents') as HTMLElement;
+  const element = document.getElementById('scroll-bar-contents') as HTMLElement;
 
   if (element) {
     if (element.scrollHeight <= element.clientHeight) {
