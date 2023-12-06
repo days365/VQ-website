@@ -36,18 +36,6 @@ body {
   font-size: 30px;
 }
 
-.pc {
-  @include sp {
-    display: none !important;
-  }
-}
-
-.sp {
-  @include pc {
-    display: none !important;
-  }
-}
-
 .container {
   background: #03294a;
   height: 100vh;
