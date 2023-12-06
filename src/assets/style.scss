@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap');
 
-@mixin pc {
-  @media screen and (min-width: 768px) {
-    @content;
-  }
-}
-
-@mixin sp {
-  @media screen and (max-width: 767px) {
-    @content;
-  }
-}
-
 $main: #e0f7f9;
 $sub: #09a9c8;
 $positive: #54d460;
