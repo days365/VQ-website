@@ -1,11 +1,11 @@
 function updateScrollbarVisibility() {
-  const element = document.getElementById('scroll_bar_contents');
+  const element = document.getElementById('scroll_bar_contents') as HTMLElement;
 
   if (element) {
     if (element.scrollHeight <= element.clientHeight) {
-      element.classList.remove("scroll_bar")
+      element.classList.remove("scroll_bar");
     } else {
-      element.classList.add("scroll_bar")
+      element.classList.add("scroll_bar");
     }
   }
 }
