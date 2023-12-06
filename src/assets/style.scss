@@ -11,29 +11,29 @@ body {
   line-height: 45px;
 }
 
-.main {
-  color: $main;
-}
-
-.sub {
-  color: $sub;
-}
-
-.positive {
-  color: $positive;
-}
-
-.warning {
-  color: $warning;
-}
-
 .text-container {
   margin: 6vw 0;
   padding: 0 1.5vw;
-}
 
-.heading {
-  font-size: 30px;
+  .heading {
+    font-size: 30px;
+  }
+
+  .main {
+    color: $main;
+  }
+
+  .sub {
+    color: $sub;
+  }
+
+  .positive {
+    color: $positive;
+  }
+
+  .warning {
+    color: $warning;
+  }
 }
 
 .container {
