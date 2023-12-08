@@ -3,9 +3,9 @@ function updateScrollbarVisibility() {
 
   if (element) {
     if (element.scrollHeight <= element.clientHeight) {
-      element.classList.remove("scroll-bar");
+      element.classList.add("hide");
     } else {
-      element.classList.add("scroll-bar");
+      element.classList.remove("hide");
     }
   }
 }
