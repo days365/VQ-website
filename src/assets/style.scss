@@ -46,20 +46,68 @@ body {
   height: 100vh;
 
   .banner {
-    width: 100%&;
+    width: 100%;
 
     .tag {
       display: flex;
 
       .category {
         font-family: 'M PLUS 1', sans-serif;
-        background: #ffa619;
         color: white;
         text-align: center;
         font-size: 4vw;
         width: 30%;
         aspect-ratio: 22/4;
         border-radius: 10px 10px 0 0;
+
+        &.other {
+          &::before {
+            content: "その他";
+          }
+          background: #7a7a7a;
+        }
+
+        &.problem {
+          &::before {
+            content: "problem";
+          }
+          background: #7a7a7a;
+        }
+
+        &.event {
+          &::before {
+            content: "イベント";
+          }
+          background: #55d360;
+        }
+
+        &.gacha {
+          &::before {
+            content: "ガチャ";
+          }
+          background: #ffa619;
+        }
+
+        &.campaign {
+          &::before {
+            content: "キャンペーン";
+          }
+          background: #fc7e9c;
+        }
+
+        &.gacha {
+          &::before {
+            content: "ガチャ";
+          }
+          background: #ffa619;
+        }
+
+        &.important {
+          &::before {
+            content: "重要";
+          }
+          background: #f54646;
+        }
       }
 
       .date {
