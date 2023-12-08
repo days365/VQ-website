@@ -1,92 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja" prefix="og: https://ogp.me/ns#">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Language" content="ja">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/assets/reset.css">
-    <link rel="stylesheet" href="/assets/style.css">
-    <script type="text/javascript" src="./assets/index.js" defer></script>
-  </head>
+<%- include('_header') %>
   <body>
     <div id="scroll-bar-contents" class="container scroll-bar">
-      <div class="about banner">
-        <div class="tag">
-          <div class="category gacha"></div>
-          <div class="date">2023/6/24 4:59</div>
-        </div>
-        <img src="../assets/img/banner.png" alt="">
-      </div>
-      <div class="text-container">
-        <p class="text main">
-          VQをご利用いただき誠にありがとうございます。<br>
-          現在、以下の不具合について調査をしております。
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading main">
-          【テキスト　メインカラー】　見出しテキストサイズ　30pt　
-        </p>
-        <p class="text main">
-          通常テキストサイズ　24pt<br>
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading sub">
-          【テキスト　サブカラー】
-        </p>
-        <p class="text sub">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading positive">
-          【ポジティブ】
-        </p>
-        <p class="text positive">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading warning">
-          【警告・重要】
-        </p>
-        <p class="text warning">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading warning">
-          【2行ある時の確認見出し2行ある時の確認見出し2行ある時の確認見出し2行ある時の確認見出し2行ある時の確認見出し2行ある時の確認見出し】
-        </p>
-        <p class="text warning">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading warning">
-          【警告・重要】
-        </p>
-        <p class="text warning">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="warning heading">
-          【警告・重要】
-        </p>
-        <p class="text warning">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
+      <ul>
+        <li><a href="./event_other.html">イベント(その他)</a></li>
+        <li><a href="./event_other_long.html">イベント(その他) 長い表示</a></li>
+        <li><a href="./event_problem.html">イベント(不具合)</a></li>
+        <li><a href="./event_event.html">イベント(イベント)</a></li>
+        <li><a href="./event_gacha.html">イベント(ガチャ)</a></li>
+        <li><a href="./event_campaign.html">イベント(キャンペーン)</a></li>
+        <li><a href="./event_important.html">イベント(重要)</a></li>
+        <li><a href="./propblem.html">不具合</a></li>
+        <li><a href="./propblem_long.html">不具合 長い表示</a></li>
+      </ul>
+      <style>
+        ul {
+          padding: 4vw;
+        }
+
+        li {
+          color: white;
+          font-size: 2.6vw;
+          line-height: 6vw;
+        }
+      </style>
     </div>
   </body>
 </html>
