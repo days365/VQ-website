@@ -1,57 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
   <%- include('_header') %>
-  <body>
-    <div id="scroll-bar-contents" class="container scroll-bar">
-      <div class="about banner">
-        <div class="tag">
-          <div class="category other"></div>
-          <div class="date">2023/6/24 4:59</div>
-        </div>
-        <img src="../assets/img/banner.png" alt="">
+  <body id="scrollable-contents">
+    <div class="about banner">
+      <div class="tag">
+        <div class="category other">その他</div>
+        <div class="date">2023/6/24 4:59</div>
       </div>
-      <div class="text-container">
-        <p class="text main">
-          VQをご利用いただき誠にありがとうございます。<br>
-          現在、以下の不具合について調査をしております。
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading main">
-          【テキスト　メインカラー】　見出しテキストサイズ　30pt　
-        </p>
-        <p class="text main">
-          通常テキストサイズ　24pt<br>
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading sub">
-          【テキスト　サブカラー】
-        </p>
-        <p class="text sub">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading positive">
-          【ポジティブ】
-        </p>
-        <p class="text positive">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
-      <div class="text-container">
-        <p class="heading warning">
-          【警告・重要】
-        </p>
-        <p class="text warning">
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
-          あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
-        </p>
-      </div>
+      <img src="../assets/images/banner.png" alt="">
+    </div>
+    <div class="detail">
+      <p class="main">
+        VQをご利用いただき誠にありがとうございます。<br>
+        現在、以下の不具合について調査をしております。
+      </p>
+      <p class="main">
+        <span class="heading">【テキスト　メインカラー】　見出しテキストサイズ　30pt</span>
+        通常テキストサイズ　24pt<br>
+        あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
+      </p>
+      <p class="sub">
+        <span class="heading">【テキスト　サブカラー】</span>
+        あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
+        あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
+      </p>
+      <p class="positive">
+        <span class="heading">【ポジティブ】</span>
+        あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
+        あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
+      </p>
+      <p class="warning">
+        <span class="heading">【警告・重要】</span>
+        あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほ３４文字
+        あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめ
+      </p>
     </div>
     <%- include('_simplebar_script') %>
   </body>
