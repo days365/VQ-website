@@ -1,12 +1,9 @@
 function updateScrollbarVisibility() {
-  const element = document.getElementById('scroll-bar-contents') as HTMLElement;
-
-  if (element) {
-    if (element.scrollHeight <= element.clientHeight) {
-      element.classList.add("hide");
-    } else {
-      element.classList.remove("hide");
-    }
+  const element = document.getElementById('scrollable-contents') as HTMLElement;
+  if (element.classList.contains("simplebar-scrollable-y")) {
+    element.classList.remove("hide-scrollbar");
+  } else {
+    element.classList.add("hide-scrollbar");
   }
 }
 
